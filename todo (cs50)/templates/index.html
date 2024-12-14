@@ -1,0 +1,87 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+  Home
+{% endblock %}
+
+{% block main %}
+  <div>
+    <img class="banner border img-fluid" src="../static/img/banner.jpg" alt="banner">
+    <section class="mt-4 container">
+      {% if todos | length == 0 %}
+        <div>
+          <h2 class="text-center mb-4">Your To-Dos</h2>
+          <div class="alert alert-dark text-center" role="alert">
+            No tasks yet! Start by adding your first to-do now! 🎉✅
+          </div>
+          <div class="d-flex justify-content-center">
+            <a href="/add"><button type="submit" class="btn btn-lg btn-dark px-5">Add Todo</button></a>
+          </div>
+        </div>
+      {% else %}
+        <div class="d-flex justify-content-between mb-2">
+          <h2 class="text-center">Your To-Dos</h2>
+          <div class="mb-2">
+            <a class="add-button" href="/add">
+              <button type="submit" class="btn btn-dark d-flex align-items-center gap-1">
+                <span class="material-symbols-outlined">add</span>
+                <span>Add To-Do</span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="table-responsive">
+          <table class="table table-hover table-bordered shadow-sm align-middle">
+            <thead class="table-primary">
+              <tr>
+                <th scope="col">S. No.</th>
+                <th scope="col">Title</th>
+                <th scope="col">Category</th>
+                <th scope="col">Date and Time</th>
+                <th scope="col" class="text-center">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for todo in todos %}
+                <tr>
+                  <th scope="row">{{ loop.index }}</th>
+                  <td class="fw-bold">{{ todo.title }}</td>
+                  <td>{{ todo.category }}</td>
+                  <td>{{ todo.date_created.strftime('%d-%m-%y %I:%M %p') }}</td>
+                  <td class="text-center d-flex justify-content-center align-items-center gap-1">
+                    <div class="check-task">
+                      <!-- https://www.flaticon.com/search?word=checkbox -->
+                      <img class="check-box" width="23" src="../static/img/blank-checkbox.png" alt="check-box">
+                    </div>
+                    <a href="/update/{{ todo.sno }}" class="text-primary mx-1 pt-2">
+                      <!-- https://fonts.google.com/icons -->
+                      <span class="material-symbols-outlined update">edit</span>
+                    </a>
+                    <a href="/delete/{{ todo.sno }}" class="text-danger mx-1 pt-2">
+                      <span class="material-symbols-outlined delete">delete</span>
+                    </a>
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+      {% endif %}
+      
+    </section>
+  </div>
+
+  <script>
+    let checkBoxes = document.querySelectorAll('.check-box');
+
+    checkBoxes.forEach((checkBox) => {
+      checkBox.addEventListener('click', () => {
+        if (checkBox.src.includes("blank-checkbox.png")) {
+          checkBox.src = "../static/img/square.png"; // Completed state
+        } else {
+          checkBox.src = "../static/img/blank-checkbox.png"; // Uncompleted state
+        }
+      });
+    });
+  </script>
+{% endblock %}

@@ -1,0 +1,84 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+  About To-Do App
+{% endblock %}
+
+{% block main %}
+    <div class="container about">
+        <!-- Header Section -->
+        <div class="text-center pt-3 pb-2">
+            <h1>About the Kawaii To-Do</h1>
+        </div>
+
+        <!-- Introduction Section -->
+        <section class="intro mt-2">
+            <h4>Welcome to <span class="fw-bold">Kawaii To-Do</span>!</h4>
+            <p>This is my final project of CS50X, where I applied what I've learned about web development using various technologies like <span class="fw-bold">HTML, CSS, JS, Flask, and SQLite</span>.</p>
+            <p>The app provides an intuitive way to manage your daily tasks. Whether it's personal goals, work-related items, or anything in between, stay organized and achieve more!</p>
+        </section>
+
+        <!-- Key Features Section -->
+        <section class="features mt-4">
+            <h3>Key Features</h3>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <span class="fw-bold">Create, Update, and Delete Tasks:</span> Effortlessly manage your tasks by adding, updating, or removing them once completed. 🌱
+                </li>
+                <li class="list-group-item">
+                    <span class="fw-bold">View Your Todo List:</span> Quickly access and review your entire list of tasks at any time. 📋
+                </li>
+                <li class="list-group-item">
+                    <span class="fw-bold">Responsive Design:</span> Access your to-do list from any device—be it a phone, tablet, or desktop. 📱💻
+                </li>
+            </ul>
+        </section>
+
+        <!-- Development Section -->
+        <section class="development mt-4">
+            <h3>About the Development</h3>
+            <p>This app was built using <span class="fw-bold">Flask</span>, a lightweight Python web framework, with a focus on simplicity and functionality. The stack includes:</p>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <span class="fw-bold">HTML, CSS, and JavaScript for Frontend:</span>
+                    <span>These technologies create the user interface for the Kawaii To-Do app. HTML structures the layout, CSS gives it a clean and simple design, and JavaScript adds interactive elements. 🎨</span>
+                </li>
+                <li class="list-group-item">
+                    <span class="fw-bold">Jinja Templating:</span>
+                    <span>Dynamically renders content based on the data passed by Flask, allowing for an interactive and personalized user experience. 🖥️</span>
+                </li>
+                <li class="list-group-item">
+                    <span class="fw-bold">Flask for Backend:</span>
+                    <span>Manages the app's routes and server-side logic, handling requests and responses to ensure smooth functionality of the task management features. ⚙️</span>
+                </li>
+                <li class="list-group-item">
+                    <span class="fw-bold">SQLite Database:</span>
+                    <span>Stores user data and tasks securely, ensuring your to-do list is preserved and easily accessible. 🔐</span>
+                </li>
+            </ul>
+                       
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact my-4">
+            <h3>Connect with Me</h3>
+            <div class="d-flex gap-3 justify-content-center align-items-center">
+                <!-- GitHub -->
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Logo" class="contact-logo me-2" />
+                    <a href="https://github.com/palchhinparihar" target="_blank" class="github text-decoration-none text-dark">
+                        github.com/palchhinparihar
+                    </a>
+                </div>
+                <!-- Email -->
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email Logo" class="contact-logo me-2" />
+                    <a href="mailto:palchhinparihar@gmail.com" class="email text-decoration-none text-danger" target="_blank">
+                        palchhinparihar@gmail.com
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+{% endblock %}

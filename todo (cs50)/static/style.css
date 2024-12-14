@@ -1,0 +1,128 @@
+body {
+  background-color: #fef9ff;
+  color: #333;
+}
+
+.navbar {
+  padding: 2px 3px;
+}
+
+.navbar-brand {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.7rem;
+  margin-top: 10px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.banner {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: 0 50%;
+  filter: brightness(1.2);
+}
+
+/* For tablets (min-width: 576px) */
+@media (max-width: 576px) {
+  .banner {
+    object-position: 40% 50%;
+    height: 200px;
+  }
+}
+
+.button {
+  padding: 1px 2.5px;
+}
+
+.button span {
+  margin-bottom: 0.5px;
+}
+
+.alert {
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.error-section {
+  background-color: #f0f8ff;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+
+  height: 91vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: fantasy;
+}
+
+.error-section div {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.error-section p {
+  font-size: 25px;
+  margin-top: 10px;
+  letter-spacing: 2.3px;
+  color: white;
+  text-shadow: -2px 2px 0 #000,
+                2px 2px 0 #000,
+                2px -2px 0 #000,
+                -2px -2px 0 #000;
+}
+
+.grey-bg {
+  background-color: #eaeaea;
+}
+
+.login, .register, .password {
+  min-height: 90vh;
+}
+
+.rl-form {
+  background-color: #ffffff;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1, h3, h4 {
+  color: #ff69b4;
+}
+
+.list-group-item {
+  background-color: #fff0f6;
+  border-color: #ffcee4;
+}
+
+.add-button {
+  text-decoration: none;
+}
+
+.check-task {
+  cursor: pointer;
+  padding-right: 8px;
+}
+
+.update, .delete {
+  font-size: 1.7em;
+}
+
+.contact-logo {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.email, .github {
+  transition: transform 0.2s ease-in-out;
+}
+
+.contact-logo:hover, .email:hover, .github:hover {
+  transform: scale(1.1);
+}

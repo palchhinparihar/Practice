@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block content %}
+    <div class="container d-flex register justify-content-center align-items-center">
+        <form action="/register" method="post" class="rl-form shadow-lg p-4 rounded">
+            <h2 class="text-center mb-4">Register</h2>
+            
+            <!-- Username input -->
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input autocomplete="off" autofocus class="form-control" id="username" name="username" placeholder="Username" type="text" required>
+            </div>
+            
+            <!-- Password input -->
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input class="form-control" id="password" name="password" placeholder="Password" type="password" required>
+            </div>
+            
+            <!-- Password Confirmation input -->
+            <div class="mb-3">
+                <label for="confirmation" class="form-label">Confirm Password</label>
+                <input class="form-control" id="confirmation" name="confirmation" placeholder="Confirm Password" type="password" required>
+            </div>
+            
+            <button class="btn btn-primary w-100" type="submit">Register</button>
+            
+            <!-- Link to login page -->
+            <div class="text-center mt-3">
+                <a href="/login" class="text-muted">Already have an account? Log in</a>
+            </div>
+        </form>
+    </div>
+{% endblock %}

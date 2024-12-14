@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block content %}
+    <div class="container login d-flex justify-content-center align-items-center">
+        <form action="/login" method="post" class="rl-form shadow-lg p-4 rounded">
+            <h2 class="text-center mb-4">Log In</h2>
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input autocomplete="off" autofocus class="form-control" id="username" name="username" placeholder="Username" type="text" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input class="form-control" id="password" name="password" placeholder="Password" type="password" required>
+            </div>
+            <button class="btn btn-primary w-100" type="submit">Log In</button>
+            <div class="text-center mt-3">
+                <a href="/register" class="text-muted">Don't have an account? Register</a>
+            </div>
+        </form>
+    </div>
+{% endblock %}
