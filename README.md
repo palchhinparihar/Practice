@@ -3,9 +3,9 @@
 Hello everyone. Welcome to my collection of web projects! 🎉 Each project showcases different skills, tools, and technologies I've explored.
 
 ## 🌟 Features
-- Responsive Design 📱
-- Dynamic Functionality ⚙️
-- Modern Tech Stack 🛠️\
+  - Responsive Design 📱
+  - Dynamic Functionality ⚙️
+  - Modern Tech Stack 🛠️\
 
 ## 🛠️ Technologies Used
 Frontend: HTML, CSS, JavaScript, React, Tailwind, Bootstrap
