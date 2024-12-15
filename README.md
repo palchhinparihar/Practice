@@ -36,4 +36,10 @@ Hello everyone! Welcome to my collection of web projects! 🎉 Each project show
 
 6. **To-Do App (CS50)** 📝  
    - **Technologies:** HTML, CSS, Bootstrap, Jinja, Flask and SQLite  
-   - A robust to-do application leveraging Flask for the backend and SQLite for data management.  
+   - A robust to-do application leveraging Flask for the backend and SQLite for data management.
+
+## 🤝 Acknowledgments
+I want to express my gratitude to the following resources for their invaluable guidance and inspiration:
+
+- [CS50x](https://cs50.harvard.edu/x/2024/): A foundational course by Harvard University that changed my perspective on programming.
+- [CodeWithHarry - Sigma Web Development Playlist](https://youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&si=FN72RJJIjgpuLcCz): For simplifying web development concepts and offering practical insights.
