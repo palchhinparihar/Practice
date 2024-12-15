@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/style1.css">
+</head>
+<body>
+    <header class="nav-bar">
+        <h1 class="logo">Contact Us</h1>
+        <nav>
+            <ul class="nav-list">
+                <li><a class="list-items" href="index.html">Home</a></li>
+                <li><a class="list-items" href="hobby.html">Hobby</a></li>
+                <li><a class="list-items" href="extracurricular.html">Extracurricular</a></li>
+                <li><a class="list-items" href="interest.html">Interest</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form id="contactForm" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+
+        <p id="responseMessage" class="response-message"></p>
+
+        <nav class="back-nav">
+            <button id="backToHome">Back to Home</button>
+        </nav>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
