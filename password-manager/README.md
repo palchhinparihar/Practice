@@ -1,6 +1,6 @@
 # PassM - Your Personal Password Manager
 
-PassM is a simple and secure password manager built with React. It allows users to store, manage, and retrieve their passwords easily, while providing features like copying to clipboard and editing or deleting saved passwords.
+PassM is a simple and secure password manager built with React. It allows users to store, manage, and retrieve their passwords easily, while providing features like copying to a clipboard and editing or deleting saved passwords.
 
 ## Features
 
@@ -15,27 +15,6 @@ PassM is a simple and secure password manager built with React. It allows users 
 - **Storage**: LocalStorage
 - **Icons**: Lordicon animations for an interactive UI
 - **Styling**: Modern design principles with Tailwind CSS
-
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/passm.git
-   cd passm
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
 
 ## Usage
 
