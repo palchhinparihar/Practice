@@ -38,6 +38,10 @@ Hello everyone! Welcome to my collection of web projects! 🎉 Each project show
    - **Technologies:** HTML, CSS, Bootstrap, Jinja, Flask and SQLite  
    - A robust to-do application leveraging Flask for the backend and SQLite for data management.
 
+7. **Password Manager** 📝  
+   - **Technologies:** React and Tailwind CSS
+   - A secure password management application utilizing React for the frontend and localStorage for data storage.
+
 ## 🤝 Acknowledgments
 I want to express my gratitude to the following resources for their invaluable guidance and inspiration:
 
