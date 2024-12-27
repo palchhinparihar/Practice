@@ -34,8 +34,8 @@ Hello everyone! Welcome to my collection of web projects! 🎉 Each project show
    - **Technologies:** React and Tailwind CSS  
    - A dynamic task management app using React for interactivity and Tailwind for styling.  
 
-6. **To-Do App (CS50)** 📝  
-   - **Technologies:** HTML, CSS, Bootstrap, Jinja, Flask and SQLite  
+6. **Kawaii To-Do App (CS50)** 📝  
+   - **Technologies:** HTML, CSS, Bootstrap, Jinja, Flask and SQLite3  
    - A robust to-do application leveraging Flask for the backend and SQLite for data management.
 
 7. **Password Manager** 📝  
