@@ -10,37 +10,39 @@ Hello everyone! Welcome to my collection of web projects! 🎉 Each project show
 ## 🛠️ Technologies Used  
 - **Frontend:** HTML, CSS, JavaScript, React, Tailwind, Bootstrap  
 - **Backend:** Flask, Jinja  
-- **Database:** SQLite  
+- **Database:** SQLite 
 
-## 🌟 Projects and Technologies Used  
+## 💫 Projects and Technologies Used  
 
-1. **Netflix Clone** 🎥  
-   - **Technologies:** HTML and CSS  
-   - Focused on creating a visually appealing replica of Netflix's homepage.  
-
-2. **Spotify Clone** 🎵  
+1. **Spotify Clone** 🎵  
    - **Technologies:** HTML, CSS, and JavaScript  
    - Developed to mimic Spotify's interface with interactive elements.  
 
-3. **Twitter Clone** 🐦  
-   - **Technologies:** HTML and Tailwind CSS  
-   - Highlighted the use of Tailwind CSS for responsive and modern styling.  
-
-4. **Homepage (CS50)** 🏠  
-   - **Technologies:** HTML, CSS, JavaScript, and Bootstrap  
-   - Built a responsive homepage with Bootstrap-based components.  
-
-5. **To-Do App (React)** ✅  
+2. **To-Do App (React)** ✅  
    - **Technologies:** React and Tailwind CSS  
    - A dynamic task management app using React for interactivity and Tailwind for styling.  
 
-6. **Kawaii To-Do App (CS50)** 📝  
+3. **Kawaii To-Do App (CS50)** 📝  
    - **Technologies:** HTML, CSS, Bootstrap, Jinja, Flask and SQLite3  
    - A robust to-do application leveraging Flask for the backend and SQLite for data management.
 
-7. **Password Manager** 📝  
+4. **Password Manager** 📝  
    - **Technologies:** React and Tailwind CSS
-   - A secure password management application utilizing React for the frontend and localStorage for data storage.
+   - A secure password management application utilizing React for the front end and local storage for data storage.
+  
+## 💫 Exercises and Technologies Used
+
+1. **Netflix Clone** 🎥  
+   - **Technologies:** HTML and CSS  
+   - Focused on creating a visually appealing replica of Netflix's homepage.
+  
+2. **Homepage (CS50)** 🏠  
+   - **Technologies:** HTML, CSS, JavaScript, and Bootstrap  
+   - Built a responsive homepage with Bootstrap-based components.  
+     
+3. **Twitter Clone** 🐦  
+   - **Technologies:** HTML and Tailwind CSS  
+   - Highlighted the use of Tailwind CSS for responsive and modern styling. 
 
 ## 🤝 Acknowledgments
 I want to express my gratitude to the following resources for their invaluable guidance and inspiration:
