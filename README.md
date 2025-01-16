@@ -1,4 +1,4 @@
-# 💻 Web Projects  
+# 💻 Web Projects and Exercises 
 
 Hello everyone! Welcome to my collection of web projects! 🎉 Each project showcases different skills, tools, and technologies I've explored.  
 
